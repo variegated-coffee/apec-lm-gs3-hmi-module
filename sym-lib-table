@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "LM3410XMYX")(type "KiCad")(uri "${KIPRJMOD}/LM3410XMYX/2025-08-18_10-07-22.kicad_sym")(options "")(descr ""))
+  (lib (name "BM04B-SRSS-TB_LF__SN_")(type "KiCad")(uri "${KIPRJMOD}/BM04B-SRSS-TB_LF__SN_/BM04B-SRSS-TB_LF__SN_.kicad_sym")(options "")(descr ""))
+)
