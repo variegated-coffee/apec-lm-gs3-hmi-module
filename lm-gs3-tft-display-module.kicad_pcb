@@ -1748,6 +1748,7 @@
 		(property "Reference" "R9"
 			(at 0 -1.83 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "04ba3612-1093-438d-bee0-d1ac6865ab51")
 			(effects
 				(font
@@ -3212,6 +3213,7 @@
 		(property "Reference" "JP1"
 			(at 0 -1.8 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "9db98a91-0543-420c-bc6e-d9efe8613d0e")
 			(effects
 				(font
@@ -5417,12 +5419,6 @@
 		(path "/2e1fcc4c-02b0-42ea-bdde-a084d47716c1")
 		(sheetname "/")
 		(sheetfile "lm-gs3-tft-display-module.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5" "6" "7" "8" "9" "10")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -5802,7 +5798,7 @@
 			(uuid "616f6bca-afcb-40f7-955b-bf39261fe426")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/527451097/0527451097.stp"
+		(model "${KIPRJMOD}/3d-models/0527451097.stp"
 			(offset
 				(xyz 0 -2 0)
 			)
@@ -5810,7 +5806,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -7127,6 +7123,7 @@
 		(property "Reference" "JP2"
 			(at 0 -1.8 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "a3ad7562-8b58-41d7-bf75-cf66db8c9bda")
 			(effects
 				(font
@@ -12368,6 +12365,7 @@
 		(property "Reference" "R12"
 			(at 0 -1.83 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "d0a9ab8b-f00a-47df-b1c3-ea8cec6a1ac4")
 			(effects
 				(font
@@ -12828,6 +12826,7 @@
 		(property "Reference" "J4"
 			(at 0 -12.43 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "64ca155e-87d7-4015-8fbd-970ec797746a")
 			(effects
 				(font
@@ -13725,14 +13724,6 @@
 		(path "/ba989d09-c074-498e-806b-fbb051a0310d")
 		(sheetname "/")
 		(sheetfile "lm-gs3-tft-display-module.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5" "6" "7" "8" "9" "10" "11" "12" "13" "14" "15"
-					"16" "17" "18"
-				)
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14172,7 +14163,7 @@
 			(uuid "32ef4dee-c2ae-4f15-bfc1-ad7118f386b0")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/5051101892/5051101892.stp"
+		(model "${KIPRJMOD}/3d-models/5051101892.stp"
 			(offset
 				(xyz 0 -1.5 0)
 			)
@@ -14180,7 +14171,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -16247,6 +16238,7 @@
 		(property "Reference" "SW7"
 			(at 0.8 4.3 180)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "4aa85c6d-0111-4661-b788-9f12aefc9d39")
 			(effects
 				(font
@@ -16622,6 +16614,7 @@
 		(property "Reference" "SW8"
 			(at 0.8 4.3 180)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "98fa6dcd-2c4b-4bfc-905c-677fa91d8948")
 			(effects
 				(font
@@ -17301,6 +17294,7 @@
 		(property "Reference" "SW2"
 			(at 0.8 4.3 180)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "608116dc-b693-40ea-849e-9e6a82813e49")
 			(effects
 				(font
@@ -17908,6 +17902,7 @@
 		(property "Reference" "SW10"
 			(at 0.8 4.3 180)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "45a3a515-3e3c-4eb2-a512-252d6352bf82")
 			(effects
 				(font
@@ -18587,6 +18582,7 @@
 		(property "Reference" "SW1"
 			(at 0.8 4.3 180)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "b7a183da-ef33-4f19-bb5d-aafde5386269")
 			(effects
 				(font
@@ -18962,6 +18958,7 @@
 		(property "Reference" "SW5"
 			(at 0.8 4.3 180)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "62d1572c-e735-4265-9d64-9dd2c740a8fd")
 			(effects
 				(font
@@ -19337,6 +19334,7 @@
 		(property "Reference" "SW3"
 			(at 0.8 4.3 180)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "eb3c5ab6-917d-451f-89eb-77f3ac58db5c")
 			(effects
 				(font
@@ -19712,6 +19710,7 @@
 		(property "Reference" "SW12"
 			(at 0.8 4.3 180)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "35cf72d2-6ea7-4bc1-86fc-90d1e364ae0a")
 			(effects
 				(font
@@ -20391,6 +20390,7 @@
 		(property "Reference" "SW4"
 			(at 0.8 4.3 180)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "282e64aa-c4e0-492e-91d7-018a31111284")
 			(effects
 				(font
@@ -20766,6 +20766,7 @@
 		(property "Reference" "SW6"
 			(at 0.8 4.3 180)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "36473bbd-1afa-4e09-bdcd-1d3f693e489f")
 			(effects
 				(font
@@ -21445,6 +21446,7 @@
 		(property "Reference" "SW11"
 			(at 0.8 4.3 180)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "44f876c0-994b-4429-9233-5ed1d93dda17")
 			(effects
 				(font
@@ -21820,6 +21822,7 @@
 		(property "Reference" "SW9"
 			(at 0.8 4.3 180)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "c84e99cc-7f76-457a-a379-6968df414889")
 			(effects
 				(font

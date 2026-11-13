@@ -1,3 +1,15 @@
 jlcpcb
-lm-gs3-tft-display-module-backups
+*-backups
+~*
 *.lck
+_autosave-*
+fp-info-cache
+.DS_Store
+/.mcp.json
+
+# Fabrication outputs (attach them to a GitHub release instead)
+production/
+
+# Vendor 3D models can't be redistributed; see 3d-models/README.md
+3d-models/*
+!3d-models/README.md
