@@ -9,4 +9,6 @@
 	(lib (name "Panelization") (type "KiCad") (uri "${KIPRJMOD}/Panelization.pretty") (options "") (descr ""))
 	(lib (name "LP5861RSMR") (type "KiCad") (uri "${KIPRJMOD}/LP5861RSMR/KiCADv6/footprints.pretty") (options "") (descr ""))
 	(lib (name "LP5813ADRRR") (type "KiCad") (uri "${KIPRJMOD}/LP5813ADRRR") (options "") (descr ""))
+	(lib (name "FlexiblePushButton") (type "KiCad") (uri "${KIPRJMOD}/FlexiblePushButton") (options "") (descr ""))
+	(lib (name "VariegatedCoffeeLogo") (type "KiCad") (uri "/Users/magnus/Developer/open-lcc/VariegatedCoffeeLogo.pretty") (options "") (descr ""))
 )
