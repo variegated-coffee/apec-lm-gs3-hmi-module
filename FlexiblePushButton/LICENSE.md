@@ -1,0 +1,3 @@
+`SW_Flexible.kicad_mod` (SW1–SW12) is derived from `SW_SPST_Omron_B3FS-100xP` in the KiCad footprint library, which is licensed under CC BY-SA 4.0 with the KiCad libraries exception (https://www.kicad.org/libraries/license/). This footprint keeps that licence.
+
+Changes made here, so that the footprint takes both the Omron B3FS-1050P in the BOM and the cheaper E-Switch TL3301TF100QG: the four pads are lengthened outwards from 1.6 × 1.4 mm to 2.4 × 1.4 mm (centres at ±4.4 mm instead of ±4.0 mm, inner edges unchanged), and the courtyard is widened by 0.8 mm on each side to match. The description and 3D model reference are still those of the Omron B3FS.

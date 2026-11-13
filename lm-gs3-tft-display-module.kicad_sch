@@ -7339,6 +7339,439 @@
 			)
 			(embedded_fonts no)
 		)
+	
+		(symbol
+		  "LM_GS3_HMI_Module:EyeSPI"
+		  (exclude_from_sim no)
+		  (in_bom yes)
+		  (on_board yes)
+		  (in_pos_files yes)
+		  (duplicate_pin_numbers_are_jumpers no)
+		  (property "Reference" "Jw"
+		    (at 8.89 -24.765 0)
+		    (show_name no)
+		    (do_not_autoplace no)
+		    (hide yes)
+		    (effects
+		      (font
+		        (size 1.27 1.27)
+		      )
+		      (justify left)
+		    )
+		  )
+		  (property "Value" "Molex 5051101892"
+		    (at 0 0 0)
+		    (show_name no)
+		    (do_not_autoplace no)
+		    (hide yes)
+		    (effects
+		      (font
+		        (size 1.27 1.27)
+		      )
+		    )
+		  )
+		  (property "Footprint" "CON_525591853_MOL:CON_525591853_MOL"
+		    (at 0 0 0)
+		    (show_name no)
+		    (do_not_autoplace no)
+		    (hide yes)
+		    (effects
+		      (font
+		        (size 1.27 1.27)
+		      )
+		    )
+		  )
+		  (property "Datasheet" ""
+		    (at 0 0 0)
+		    (show_name no)
+		    (do_not_autoplace no)
+		    (hide yes)
+		    (effects
+		      (font
+		        (size 1.27 1.27)
+		      )
+		    )
+		  )
+		  (property "Description" ""
+		    (at 0 0 0)
+		    (show_name no)
+		    (do_not_autoplace no)
+		    (effects
+		      (font
+		        (size 1.27 1.27)
+		      )
+		    )
+		  )
+		  (property "LCSC" "C3169221"
+		    (at 0 0 0)
+		    (show_name no)
+		    (do_not_autoplace no)
+		    (hide yes)
+		    (effects
+		      (font
+		        (size 1.27 1.27)
+		      )
+		    )
+		  )
+		  (property "Sim.Device" ""
+		    (at 0 0 0)
+		    (show_name no)
+		    (do_not_autoplace no)
+		    (effects
+		      (font
+		        (size 1.27 1.27)
+		      )
+		    )
+		  )
+		  (property "Sim.Pins" ""
+		    (at 0 0 0)
+		    (show_name no)
+		    (do_not_autoplace no)
+		    (effects
+		      (font
+		        (size 1.27 1.27)
+		      )
+		    )
+		  )
+		  (symbol "EyeSPI_1_1"
+		    (rectangle
+		      (start -3.81 -1.27)
+		      (end 7.62 -48.26)
+		      (stroke
+		        (width 0)
+		        (type default)
+		      )
+		      (fill
+		        (type background)
+		      )
+		    )
+		    (pin input line
+		      (at -6.35 -3.81 0)
+		      (length 2.54)
+		      (name "Vcc"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		      (number "1"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		    )
+		    (pin input line
+		      (at -6.35 -6.35 0)
+		      (length 2.54)
+		      (name "BACKLIGHT"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		      (number "2"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		    )
+		    (pin input line
+		      (at -6.35 -8.89 0)
+		      (length 2.54)
+		      (name "GND"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		      (number "3"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		    )
+		    (pin input line
+		      (at -6.35 -11.43 0)
+		      (length 2.54)
+		      (name "SCK"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		      (number "4"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		    )
+		    (pin input line
+		      (at -6.35 -13.97 0)
+		      (length 2.54)
+		      (name "MOSI"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		      (number "5"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		    )
+		    (pin input line
+		      (at -6.35 -16.51 0)
+		      (length 2.54)
+		      (name "MISO"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		      (number "6"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		    )
+		    (pin input line
+		      (at -6.35 -19.05 0)
+		      (length 2.54)
+		      (name "DC"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		      (number "7"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		    )
+		    (pin input line
+		      (at -6.35 -21.59 0)
+		      (length 2.54)
+		      (name "RESET"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		      (number "8"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		    )
+		    (pin input line
+		      (at -6.35 -24.13 0)
+		      (length 2.54)
+		      (name "DISP_CS"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		      (number "9"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		    )
+		    (pin input line
+		      (at -6.35 -26.67 0)
+		      (length 2.54)
+		      (name "SD_CS"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		      (number "10"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		    )
+		    (pin input line
+		      (at -6.35 -29.21 0)
+		      (length 2.54)
+		      (name "MEM_CS"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		      (number "11"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		    )
+		    (pin input line
+		      (at -6.35 -31.75 0)
+		      (length 2.54)
+		      (name "TS_CS"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		      (number "12"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		    )
+		    (pin input line
+		      (at -6.35 -34.29 0)
+		      (length 2.54)
+		      (name "SCL"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		      (number "13"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		    )
+		    (pin input line
+		      (at -6.35 -36.83 0)
+		      (length 2.54)
+		      (name "SDA"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		      (number "14"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		    )
+		    (pin input line
+		      (at -6.35 -39.37 0)
+		      (length 2.54)
+		      (name "INT"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		      (number "15"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		    )
+		    (pin input line
+		      (at -6.35 -41.91 0)
+		      (length 2.54)
+		      (name "BUSY/TE"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		      (number "16"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		    )
+		    (pin input line
+		      (at -6.35 -44.45 0)
+		      (length 2.54)
+		      (name "GPIO1"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		      (number "17"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		    )
+		    (pin input line
+		      (at -6.35 -46.99 0)
+		      (length 2.54)
+		      (name "GPIO2"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		      (number "18"
+		        (effects
+		          (font
+		            (size 1.27 1.27)
+		          )
+		        )
+		      )
+		    )
+		  )
+		  (embedded_fonts no)
+		)
 	)
 	(text "1 PGND\n2 VIN\n3 DIM\n4 FB\n5 AGND\n6 SW"
 		(exclude_from_sim no)
@@ -23651,7 +24084,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ADS1119:EyeSPI")
+		(lib_id "LM_GS3_HMI_Module:EyeSPI")
 		(at 64.77 31.75 0)
 		(unit 1)
 		(body_style 1)
