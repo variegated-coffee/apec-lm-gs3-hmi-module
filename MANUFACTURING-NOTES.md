@@ -16,7 +16,7 @@ For pinouts and configuration, see [ENGINEERING-NOTES.md](ENGINEERING-NOTES.md).
 | Surface finish | Not specified in the design; choose ENIG or lead-free HASL |
 | Default net class | 0.2 mm track, 0.19 mm clearance, 0.6 mm via with 0.3 mm drill |
 | PWR_DIST net class (DISP_VDD, DISP_GND) | 0.4 mm track, 0.2 mm clearance |
-| Smallest vias | 0.4 mm with 0.2 mm drill: ten DISP_GND vias at U4 and U5. EV1 was made with the same vias. |
+| Smallest vias | 0.6 mm with 0.3 mm drill |
 | Copper to board edge | 0.5 mm minimum |
 | Impedance control | Not specified in the design |
 
@@ -25,7 +25,6 @@ For pinouts and configuration, see [ENGINEERING-NOTES.md](ENGINEERING-NOTES.md).
 * **Both sides have parts.** The switches (SW1–SW12) and RGB LEDs (D8, D10, D12, D14, D15, D16) are on the bottom side; everything else is on the top.
 * **Assembly service parts:** the SMD parts carry LCSC part numbers in the schematic. The production files are generated with the Fabrication Toolkit plugin for KiCad, which writes them to `production/` (Gerber zip, BOM, placement file, IPC netlist). Its settings are in `fabrication-toolkit-options.json`. The plugin takes LCSC numbers from the footprints on the PCB, so sync them from the schematic first (see the checklist below).
 * **Switches:** the schematic specifies the Omron B3FS-1050P (LCSC C231326) for SW1–SW12. It works, but it's expensive. The E-Switch TL3301TF100QG is a cheaper alternative that fits the same footprint; to use it, change the switches' LCSC number before ordering, or fit it yourself.
-* **No LCSC number:** J4, the 2×6 header for external buttons and LEDs. Source and fit it yourself, or add an LCSC number before ordering. It's only needed if you use external buttons or LEDs.
 * **Not fitted (DNP):** J5 and J6, the breakout headers.
 * **Not parts:** JP1 and JP2 are solder jumpers (JP1 is bridged in copper, JP2 is open), H5 is the outline of the display bracket, and H1–H4 and H9–H17 are unplated mounting holes.
 * **The display** isn't on the BOM. Buy it from [BuyDisplay](https://www.buydisplay.com/wide-angle-2-79-inch-142x428-color-ips-tft-display-nv3007-controller) and plug its FFC into J2.

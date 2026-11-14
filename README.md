@@ -10,7 +10,7 @@
 
 Espresso electronics are usually proprietary affairs with little to no expandability. The purpose of this project is to give everyone an open source alternative with lots of features and flexibility.
 
-This board is the display and button module for the APEC carrier board for the La Marzocco GS3 (`apec-carrier-lm-gs3`), which is built around the [APEC SoM](https://github.com/variegated-coffee/apec-som). It carries a TFT display, six backlit buttons and their drivers, and connects to the carrier with a single cable.
+This board is the display and button module for the APEC carrier board for the La Marzocco GS3 (`apec-carrier-lm-gs3`), which is built around the [APEC SoM](https://github.com/variegated-coffee/apec-som). It carries a TFT display, six backlit buttons and their drivers, and connects to the carrier with a single cable. It's designed to fit into the original GS3 display module enclosure, replacing the display and button board in there.
 
 This project isn't affiliated with or endorsed by La Marzocco. "La Marzocco" and "GS3" are used only to say which machine the module is designed for.
 
@@ -18,9 +18,9 @@ This project isn't affiliated with or endorsed by La Marzocco. "La Marzocco" and
 
 * 2.79" 142×428 IPS TFT display ([BuyDisplay](https://www.buydisplay.com/wide-angle-2-79-inch-142x428-color-ips-tft-display-nv3007-controller), NV3007 controller) on a 10-pin FFC connector (J2), driven over SPI
 * Display backlight driver (U1, TI LM3410) set to about 76 mA, dimmable by PWM from the carrier
-* Six buttons (Decr, Incr, Sel, Ret, Fn, Tea), each with two tactile switches (Omron B3FS-1050P in the BOM, or the cheaper E-Switch TL3301TF100QG), read through an MCP23008 I2C I/O expander (U2) with an interrupt line to the carrier
+* Six buttons (Decrease, Increase, Select, Return, Function, Tea), matching the original buttons, each with two tactile switches (Omron B3FS-1050P in the BOM, or the cheaper E-Switch TL3301TF100QG), read through an MCP23008 I2C I/O expander (U2) with an interrupt line to the carrier
 * Six RGB LEDs, one per button, driven by two TI LP5813 LED drivers (U4, U5) with built-in boost converters
-* Header J4 for two external buttons and two external RGB LEDs
+* Header J4 for two external buttons and two external RGB LEDs, placed so that it is accessible using the original enclosure.
 * Connects to the carrier with a 2×10 IDC ribbon cable (J13, the same pinout as the carrier's J13), which is what you'd use in a GS3, or an 18-pin EyeSPI FFC cable (J12), which is handier on the bench. It runs from the carrier's 3.3 V supply alone.
 * Qwiic connector (J3) to extend the I2C bus
 * A 3D-printed display bracket ([`GS3 TFT Shim.stl`](GS3%20TFT%20Shim.stl)) that holds the display in the right position
